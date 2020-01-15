@@ -1,11 +1,11 @@
 from googletrans import Translator
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 # configure the bot 
-update = Updater('487419783:AAE4wEp4nO901cWoRYV9aptO9yMc5GoAIQ8')
+update = Updater('telegram token')
 
 def start_method(bot, update):
     chat_id = update.message.chat_id
-    bot.sendMessage(chat_id, "Translate bot  C0d3r >> @Evmo83 \n send me Your Text to I Translate that !")
+    bot.sendMessage(chat_id, "Translate bot  C0d3r >> @six_6_six \n send me Your Text to I Translate that !")
     
 def translate_method(bot, update):
     chat_id = update.message.chat_id
